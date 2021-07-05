@@ -18,5 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'arcticicestudio/nord-vim'
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
   
 call plug#end()
