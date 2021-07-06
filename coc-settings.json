@@ -1,12 +1,18 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python"],
-
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-
-  "snippets.ultisnips.directories":
-  [
+  "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
@@ -15,11 +21,15 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
     "v": "open:vsplit"
   },
-
   // c config
   "clangd.enabled": true,
-  "clangd.path": "/home/yuyu/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd"
+  "clangd.path": "/home/yuyu/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd",
+  "clangd.semanticHighlighting": true
 }

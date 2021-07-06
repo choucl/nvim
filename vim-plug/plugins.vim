@@ -22,5 +22,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'vim-airline/vim-airline-themes'
   Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
   Plug 'unblevable/quick-scope'
+  Plug 'jackguo380/vim-lsp-cxx-highlight'
   
 call plug#end()
