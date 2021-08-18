@@ -22,3 +22,4 @@
     ```
     :CocCommand clangd.install
     ```
+    (It's weird that you have to first open a random C file, then will coc be able to find this command.)
