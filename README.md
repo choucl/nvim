@@ -3,9 +3,17 @@
 ## Dependencies
 
 * Nodejs
+
 * npm
-* pynvim
+
 * ranger
+
+  ```
+  $ sudo pacman -S nodejs npm ranger
+  ```
+
+* pynvim
+
 * clangd (auto install by the command below)
 
 ## Commands To Execute After Clone
