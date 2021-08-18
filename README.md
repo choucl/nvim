@@ -14,6 +14,12 @@
 
 * pynvim
 
+  ```
+  $ pip install pynvim
+  ```
+
+  
+
 * clangd (auto install by the command below)
 
 ## Commands To Execute After Clone
