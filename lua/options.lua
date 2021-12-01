@@ -22,7 +22,6 @@ vim.opt.encoding = 'utf-8'
 -- Indention
 vim.opt.smarttab = true
 vim.opt.expandtab = true
-vim.opt.smartindent = true
-vim.opt.autoindent = true
+vim.opt.cindent = true
 vim.opt.softtabstop = 4           -- tabs should be 4 "space" wide
 vim.opt.shiftwidth = 4            -- tabs should be 4 "space" wide
