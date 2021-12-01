@@ -35,6 +35,16 @@ packer.startup(function()
     }
 
     use {
+        'lewis6991/gitsigns.nvim',
+        requires = {
+           'nvim-lua/plenary.nvim'
+        },
+        config = function()
+            require 'plugins.gitsigns'
+        end
+    }
+
+    use {
         'kyazdani42/nvim-tree.lua',
 	cmd = { "NvimTreeToggle", "NvimTreeFocus" },
         config = function()
