@@ -18,13 +18,10 @@ cmp.setup({
   formatting = {
     format = function(entry, vim_item)
       vim_item.menu = ({
-        rg = "rg",
         nvim_lsp = "LSP",
         nvim_lua = "Lua",
         Path = "Path",
         luasnip = "LuaSnip",
-        neorg = "Neorg",
-        treesitter = "ts",
       })[entry.source.name]
       vim_item.kind = ({
         Text = "",
@@ -65,8 +62,8 @@ cmp.setup({
       i = cmp.mapping.abort(),
       c = cmp.mapping.close(),
     }),
-    ['<CR>'] = cmp.mapping.confirm({ select = true }),
-    ["<Tab>"] = cmp.mapping(function(fallback)
+    -- ['<CR>'] = cmp.mapping.confirm({ select = true }),
+    ['<Tab>'] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
       elseif luasnip.expand_or_jumpable() then
@@ -91,7 +88,7 @@ cmp.setup({
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
     { name = 'luasnip' }, -- For luasnip users.
-    { name = 'treesitter'},
+    { name = 'nvim_lua' },
   }, {
     { name = 'buffer' },
   })
