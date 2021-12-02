@@ -58,10 +58,10 @@ vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.s
    border = "single",
 })
 
--- Enble all languages servers
+-- Enble all language servers
 nvim_lsp.clangd.setup{}
 nvim_lsp.svls.setup {
     root_dir = function()
-        return vim.loop.cwd()
+        return vim.loop.cwd()  -- enable in all directories
     end
 }
