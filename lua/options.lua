@@ -9,6 +9,7 @@ vim.opt.cursorline = true         -- enable cursorline
 vim.opt.colorcolumn = '80'
 vim.opt.showmode = false
 vim.opt.termguicolors = true
+vim.o.wrap = false
 
 -- Functionality
 vim.opt.mouse = "a"               -- enable mouse
