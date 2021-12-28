@@ -66,5 +66,4 @@ nvim_lsp.svls.setup {
         return vim.loop.cwd()  -- enable in all directories
     end
 }
-nvim_lsp.eslint.setup{}
 nvim_lsp.tsserver.setup{}
