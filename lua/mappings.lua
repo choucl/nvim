@@ -10,6 +10,8 @@ end
 vim.g.mapleader = " "  -- leader
 map("n", "j", "gj")  -- move by visual line not actual line
 map("n", "k", "gk")
+map("n", "H", "^")
+map("n", "L", "$")
 
 -- Nvimtree
 map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>")
